@@ -50,7 +50,7 @@ st.set_page_config(page_title="My Finance Dashboard", layout="wide")
 init_db()
 all_df = load_all_data()
 
-st.title("💰 บันทึกรายรับ-รายจ่าย & Dashboard")
+st.title("💰 บันทึกรายรับ-รายจ่าย = นัทและยุ้ย")
 
 # --- ส่วนที่ 1: กราฟเปรียบเทียบรายเดือน (รูปแบบเดิม) ---
 if not all_df.empty:
